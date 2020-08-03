@@ -45,6 +45,7 @@ public class SpringBootHadoopApplication {
         try {
             System.exit(job.waitForCompletion(true) ? 0 : 1);
         } catch (IOException | ClassNotFoundException | InterruptedException e) {
+            Thread.currentThread().interrupt();
             log.error(e.getMessage(), e);
         }
     }
