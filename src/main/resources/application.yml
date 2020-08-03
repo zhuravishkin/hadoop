@@ -1,0 +1,7 @@
+spring:
+  hadoop:
+    fsUri: hdfs://192.168.0.12:9000
+management:
+  endpoint:
+    health:
+      show-components: always

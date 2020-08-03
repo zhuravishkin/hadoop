@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "spring.hadoop.fsUri",
+      "type": "java.lang.String",
+      "description": "Description for spring.hadoop.fsUri."
+    },
+    {
+      "name": "spring.hadoop.resourceManagerHost",
+      "type": "java.lang.String",
+      "description": "Description for spring.hadoop.resourceManagerHost."
+    }
+  ]
+}
